@@ -1,0 +1,150 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+body{
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  padding: 0 ;
+}
+
+header{
+  padding: 5px;
+  background-color: aquamarine;
+  text-align: center;
+}
+
+.logo{
+  padding: 10px 10px;  
+  background: white;
+}
+
+nav{
+ position: sticky;
+
+ background-color: #333;
+ font-size: larger;
+}
+
+nav ul li a{ 
+ position: sticky;
+ padding: 10px 20px;
+ text-decoration: none;
+ color:white ;
+
+}
+
+nav li{
+ position: sticky;
+ list-style: none;
+ display:inline-block
+}
+
+nav ul li :hover {
+  color:red;
+}
+
+
+.intro{
+  width: 100%;
+  text-align: center;
+  background-color:#333;
+  margin-top: 0;
+  padding: 10px;
+  color: white;
+  font-size: larger;
+}
+
+.form{
+  width: 100%;
+  padding: 10px 20px;
+  background:aquamarine;
+  box-sizing: border-box;
+  border-radius: 7px; 
+  text-align:center;
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+
+textarea{
+  margin-top: 30px;
+  padding: 70px;
+  }
+
+.name{
+  position: left;
+  padding: 10px; 
+  margin: 5px;
+}
+
+.tel{
+  padding: 10px; 
+  margin: 5px;
+}
+
+.email{
+  padding: 10px;
+  margin: 5px;
+}
+
+.input{
+color: black;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  display: inline-block;
+  margin-right: auto;
+
+}
+.section map{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  display: inline-block;
+}
+
+footer{
+  display: flex;
+  justify-content:center;
+  width: 100%;
+  background: aquamarine;
+  padding: 10px;
+} 
+.pie{
+  padding: 0 10px;
+}
+
+/* pagina productos */
+
+#productos h1{
+  text-align: center;
+  font-size: 30px;  
+  background: aquamarine;
+}
+  
+#productos .galeria{  
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-evenly;
+}
+
+#productos .galeria figure{
+  text-align: center;
+}
+
+#productos .galeria figure img{
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+#productos .galeria figure figcaption{
+  font-size: 1.5em;
+  color: black;
+  padding: 10px;
+}
+
+#productos .galeria p.price{
+ font-size: 1.5em;
+}
