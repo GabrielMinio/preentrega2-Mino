@@ -1,3 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+.logo {
+  padding: 10px 10px;
+  background: white;
+}
+
+nav {
+  position: sticky;
+  background-color: #333;
+  font-size: larger;
+  padding: 10px 20px;
+}
+nav ul {
+  padding: 10px 20px;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+nav ul li a {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+}
+nav :hover {
+  color: red;
+}
+
+.container {
+  display: flex;
+  align-items: row;
+}
+.container form {
+  padding: 10px 20px;
+  text-align: center;
+  color: #333;
+  background: aquamarine;
+}
+.container form .name {
+  position: left;
+  padding: 10px;
+  margin: 5px;
+}
+.container form .tel {
+  padding: 10px;
+  margin: 5px;
+}
+.container form .email {
+  padding: 10px;
+  margin: 5px;
+}
+.container form textarea {
+  margin-top: 30px;
+  padding: 70px;
+}
+.container form .input {
+  border-color: blue;
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+}
+.map {
+  width: 100%;
+  align-items: center;
+}
+
+.intro {
+  width: 100%;
+  text-align: center;
+  background-color: #333;
+  margin-top: 0;
+  padding: 10px;
+  color: white;
+  font-size: larger;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: aquamarine;
+  padding: 10px;
+}
+
+.pie {
+  padding: 0 10px;
+}
+
 body {
   background-color: aquamarine;
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 5px;
+  background-color: aquamarine;
+  text-align: center;
 }

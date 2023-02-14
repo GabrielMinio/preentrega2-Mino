@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+@import "_vars";
+@import "_nav";
+@import "_form";
+@import "_intro";
+@import "_footer";
+
 body{
-    background-color: aquamarine;
-}
+    background-color: $mainColor;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0 ;
+    }
+
+    header{
+        padding: 5px;
+        background-color:$mainColor;
+        text-align: center;
+    }
