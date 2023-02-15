@@ -1,9 +1,14 @@
+//mixins
+@mixin texto ($size,$b-g,$color){
+  font-size:$size;
+  background-color:$b-g;
+  color:$color;
+}
+
 .intro{
+  @include texto($mainSize,$secundary,$textColor);
     width: 100%;
-    text-align: center;
-    background-color:$secundary;
+    text-align:$mainPosition ;    
     margin-top: 0;
-    padding: 10px;
-    color: $textColor;
-    font-size: $mainSize;
+    padding: 10px;       
   }

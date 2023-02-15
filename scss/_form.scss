@@ -1,35 +1,37 @@
+//extend
+.label-gral{
+  padding: 10px;
+  margin:5px;
+  }
+
 .container { 
     display: flex;
     align-items: row;    
-   
+
 form{
     padding: 10px 20px;
-    text-align:center;
+    text-align:$mainPosition;
     color:$secundary;
     background:$mainColor ;    
- 
+
   .name{
+    @extend label-gral;
     position: left;
-    padding: 10px; 
-    margin: 5px;
-  }  
+  } 
   .tel{ 
-    padding: 10px; 
-    margin: 5px;
-  }  
-  .email{
-    padding: 10px;
-    margin: 5px;
+   label-gral
   }
+  .email{
+    label-gral
+  } 
   textarea{
     margin-top: 30px;
     padding: 70px;
     }   
-  .input{
-  border-color: blue;
-  }  
+  }
+
 }
-}
+
 
 @media (max-width:600px) {
     .container{
@@ -39,6 +41,6 @@ form{
 
 .map{
     width: 100%;
-    align-items: center;
+    align-items: $mainPosition;
    
   }

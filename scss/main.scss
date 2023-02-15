@@ -4,6 +4,7 @@
 @import "_form";
 @import "_intro";
 @import "_footer";
+@import "_pages";
 
 body{
     background-color: $mainColor;
@@ -15,5 +16,5 @@ body{
     header{
         padding: 5px;
         background-color:$mainColor;
-        text-align: center;
+        text-align:$mainPosition ;
     }
